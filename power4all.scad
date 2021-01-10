@@ -8,7 +8,7 @@ dxf_file = "power4all.dxf";
 e = 1;
 
 // The intersection applies a chamfer to the top edges. Not functionally necessary.
-intersection() {
+translate([0, 0, 16]) rotate([0, 180, 0]) intersection() {
 	// Main structure
 	difference() {
 		// Main block
