@@ -1,3 +1,6 @@
+// SPDX: CC-BY-SA-4.0
+// Copyright 2020 Brian Starkey <stark3y@gmail.com>
+
 $fn = 128;
 dxf_file = "cap.dxf";
 
